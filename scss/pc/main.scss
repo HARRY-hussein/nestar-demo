@@ -1,31 +1,35 @@
 /** IMPORTS **/
 @import '../variables.scss';
+
 @import '/scss/pc/homepage/homepage.scss';
+@import '/scss/pc/property/property.scss';
+@import '/scss/pc/property/detail.scss';
+
 #pc-wrap {
   #top {
     .navbar {
       .navbar-main {
-        position: fixed !important;
-        padding: 22px 0px !important;
-        width: 100% !important;
-        height: 87px !important;
-        display: flex !important;
-        flex-direction: row !important;
-        box-sizing: border-box !important;
-        z-index: 99 !important;
-        align-items: center !important;
-        background-color: #181a20 !important;
-        border-top: 1px solid rgba(255, 255, 255, 0.07) !important;
+        position: fixed ;
+        padding: 22px 0px ;
+        width: 100% ;
+        height: 87px ;
+        display: flex ;
+        flex-direction: row ;
+        box-sizing: border-box ;
+        z-index: 99 ;
+        align-items: center ;
+        background-color: #181a20 ;
+        border-top: 1px solid rgba(255, 255, 255, 0.07) ;
         &.transparent {
-          background-color: #181a209e !important;
+          background-color: #181a209e ;
         }
         .container {
-          display: flex !important;
-          width: 1300px !important;
-          margin: 0 auto !important;
-          flex-direction: row !important;
-          align-items: center !important;
-          justify-content: space-between !important;
+          display: flex ;
+          width: 1300px ;
+          margin: 0 auto ;
+          flex-direction: row ;
+          align-items: center ;
+          justify-content: space-between ;
           .logo-box {
             img {
               width: 150px;
@@ -91,20 +95,20 @@
   }
 
   .header-main {
-    position: relative !important;
-    width: 100% !important;
-    height: 860px !important;
-    background-image: url('/img/banner/header1.svg') !important;
-    background-size: cover !important;
-    background-color: #181a20 !important;
+    position: relative ;
+    width: 100% ;
+    height: 860px ;
+    background-image: url('/img/banner/header1.svg') ;
+    background-size: cover ;
+    background-color: #181a20 ;
     .container {
-      display: flex !important;
-      width: 1300px !important;
-      margin: 0 auto !important;
-      position: relative !important;
-      margin-top: 20px !important;
-      flex-direction: column !important;
-      align-items: center !important;
+      display: flex ;
+      width: 1300px ;
+      margin: 0 auto ;
+      position: relative ;
+      margin-top: 20px ;
+      flex-direction: column ;
+      align-items: center ;
       .search-box {
         position: relative;
         margin-top: 615px;
